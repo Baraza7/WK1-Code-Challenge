@@ -1,22 +1,19 @@
-/*attempt to prompt employee to imput their basic salary and total benefits (not working) 
-it seams thats the imputed data is not being converted into a number despite the use of 
-"parseInt"*/
+//prompt the user to input their net salary and total benefits
 
-// let x = prompt("What is your basic salary", "0");
-// let y = prompt("What is your total benefits", "0");
-// let basic = parseInt(x);
-// let benefits = parseint(y);
+let x = prompt("What is your basic salary");
+let y = prompt("What is your total benefits");
 
-//alternatively we have hard coded the expected input to test if the code is working so far
+let basic = parseInt(x);
+let benefits = parseInt(y);
 
-let basic = 500000;
-let benefits = 6000;
+
 
 // //calculate gross salary
 function grosspay(){
   let calcgross = basic + benefits;
-  return calcgross
+  return (calcgross);
 }
+
 
 
 //Calculating nssf
