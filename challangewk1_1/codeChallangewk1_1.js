@@ -5,9 +5,11 @@ A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.*/
 
 
 
-let studentMark = 0;
+
     
-studentMark= window.prompt ("Input your marks");
+let a = window.prompt ("Input your marks");
+
+let studentMark = parseInt(a);
 
 
 switch(true)
